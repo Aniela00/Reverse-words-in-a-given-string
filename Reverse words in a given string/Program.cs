@@ -5,9 +5,9 @@
         public static void Main(string[] args)
         {
             Console.WriteLine("Enter your sentence, remember to seperate each word with '.'");
-            string S = Console.ReadLine();
+            string s = Console.ReadLine();
             Stack<string> stack = new Stack<string>(); 
-            foreach (var c in S.Split('.'))
+            foreach (var c in s.Split('.'))
             {
                 stack.Push(c);
             }
