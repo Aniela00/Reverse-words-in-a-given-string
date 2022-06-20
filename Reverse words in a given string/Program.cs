@@ -13,8 +13,7 @@
             }
             foreach (var c in stack)
             {
-                Console.Write(c + '.'); //tutaj wiem, że nie potrzebnie dodaję kropkę
-                                        //na końcu ostatniego słowa, ale nie wiem jak to obejść
+                Console.Write(c + '.');
             }
         }
     }
